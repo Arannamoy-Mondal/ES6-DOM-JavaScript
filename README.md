@@ -1,1 +1,1 @@
-# ES6-DOM-JavaScript
+# JavaScript
