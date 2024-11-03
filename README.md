@@ -176,3 +176,25 @@ class Desktop extends Product{
 let d1=new Desktop("Custom","Ryzen 9 7950x","MSI 1000 Watt")
 console.log(d1);
 ```
+
+# dot notation in js
+
+```js
+let a=[
+    {name:"Macbook Air M1", price:"870$",id:1},
+    {name:"Macbook Air M2", price:"1000$",id:2},
+    {name:"Macbook Air M3",price:"1500$",id:3}
+]
+console.log(a[0].name)
+```
+
+# bracket notation in js
+
+```js
+let a=[
+    {name:"Macbook Air M1", price:"870$",id:1},
+    {name:"Macbook Air M2", price:"1000$",id:2},
+    {name:"Macbook Air M3",price:"1500$",id:3}
+]
+console.log(a[0]['name'])
+```
