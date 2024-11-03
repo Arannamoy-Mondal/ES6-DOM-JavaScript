@@ -118,3 +118,11 @@ let result = a.filter((e) => {
   console.log(`${e.id} ${e.name}`);
 });
 ```
+
+# reduce in js
+``must be two parameter. One is initializer, and another is your choice or needed.``
+```js
+let a=[10,20,30,40,50]
+// total sum of array using call back()
+console.log(a.reduce((l,r)=>l+r,0));
+```

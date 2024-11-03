@@ -1,8 +1,3 @@
-let a=[
-    {id:"01",name:"A"},
-    {id:"02",name:"B"},
-    {id:"03",name:"A"}
-]
-let result=a.filter(e=>{
-    console.log(`${e.id} ${e.name}`);
-})
+let a=[10,20,30,40,50]
+// total sum of array using call back()
+console.log(a.reduce((l,r)=>l+r,0));
