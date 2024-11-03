@@ -67,7 +67,7 @@ const a = [5, 6, 7, 8, 10];
 const result = a.map((e) => e * 2);
 console.log(result);
 ```
-``
+```
 Practice Problem:
 let a = [
   { name: "Macbook Air M1", price: "870$", id: 1 },
@@ -75,7 +75,7 @@ let a = [
   { name: "Macbook Air M3", price: "1500$", id: 3 },
 ];
 Print name and price using map in js
-``
+```
 ```js
 let a = [
   { name: "Macbook Air M1", price: "870$", id: 1 },
