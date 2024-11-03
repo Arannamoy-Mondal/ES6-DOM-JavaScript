@@ -146,3 +146,14 @@ let a = [10, 20, 30, 40, 50];
 // total sum of array using call back()
 console.log(a.reduce((l, r) => l + r, 0));
 ```
+# class and constructor in js
+```js
+class Product{
+    constructor(brandName,cpu){
+        this.brandName=brandName
+        this.cpu=cpu
+    }
+}
+let laptop1=new Product("Lenovo","Ryzen 5 5600H")
+console.log(laptop1);
+```
