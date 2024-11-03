@@ -6,7 +6,7 @@
 
 # Template literals (Template strings)
 
-```
+```js
 const number1=20
 const str=`hello ${number1}`
 console.log(str);
@@ -14,7 +14,7 @@ console.log(str);
 
 # Array Destructure
 
-```
+```js
 const array=[5,10,20,30,40,50]
 const [first,second]=array
 console.log(first,second)
@@ -22,7 +22,7 @@ console.log(first,second)
 
 # Object Destructure
 
-```
+```js
 const a={
     name:"A",
     age:"B",
