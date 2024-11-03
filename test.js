@@ -1,3 +1,7 @@
-let a=[10,20,30,40,50]
-// total sum of array using call back()
-console.log(a.reduce((l,r)=>l+r,0));
+let a=[
+    {name:"Macbook Air M1", price:"870$",id:1},
+    {name:"Macbook Air M2", price:"1000$",id:2},
+    {name:"Macbook Air M3",price:"1500$",id:3}
+]
+// print name and price using map in js
+console.log(a.map(e=>e.name+" "+e.price));

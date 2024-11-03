@@ -67,6 +67,24 @@ const a = [5, 6, 7, 8, 10];
 const result = a.map((e) => e * 2);
 console.log(result);
 ```
+`
+Practice Problem:
+let a = [
+  { name: "Macbook Air M1", price: "870$", id: 1 },
+  { name: "Macbook Air M2", price: "1000$", id: 2 },
+  { name: "Macbook Air M3", price: "1500$", id: 3 },
+];
+Print name and price using map in js
+`
+```js
+let a = [
+  { name: "Macbook Air M1", price: "870$", id: 1 },
+  { name: "Macbook Air M2", price: "1000$", id: 2 },
+  { name: "Macbook Air M3", price: "1500$", id: 3 },
+];
+// print name and price using map in js
+console.log(a.map((e) => e.name + " " + e.price));
+```
 
 # find in js
 
@@ -120,9 +138,11 @@ let result = a.filter((e) => {
 ```
 
 # reduce in js
-``must be two parameter. One is initializer, and another is your choice or needed.``
+
+`must be two parameter. One is initializer, and another is your choice or needed.`
+
 ```js
-let a=[10,20,30,40,50]
+let a = [10, 20, 30, 40, 50];
 // total sum of array using call back()
-console.log(a.reduce((l,r)=>l+r,0));
+console.log(a.reduce((l, r) => l + r, 0));
 ```
