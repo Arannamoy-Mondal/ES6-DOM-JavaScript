@@ -220,3 +220,31 @@ console.table(a)
 │    2    │ 'Macbook Air M3' │ '1500$' │ 3  │
 └─────────┴──────────────────┴─────────┴────┘
 ```
+
+
+# (==) vs (===)
+`(==) check value only. But (===) check value and type.`
+`Code:`
+```js
+let a=2
+let b="2"
+if(a==b){
+    console.log("Equal");
+    
+}
+else{
+    console.log("Not Equal")
+}
+```
+`Code:`
+```js
+let a=2
+let b=2
+if(a===b){
+    console.log("Equal");
+    
+}
+else{
+    console.log("Not Equal")
+}
+```

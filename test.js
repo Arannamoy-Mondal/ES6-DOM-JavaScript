@@ -1,6 +1,9 @@
-let a=[
-    {name:"Macbook Air M1", price:"870$",id:1},
-    {name:"Macbook Air M2", price:"1000$",id:2},
-    {name:"Macbook Air M3",price:"1500$",id:3}
-]
-console.table(a)
+let a=2
+let b=2
+if(a===b){
+    console.log("Equal");
+    
+}
+else{
+    console.log("Not Equal")
+}
